@@ -1,0 +1,13 @@
+{
+  "name": "sdk-transform-map-repro",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "pretransform": "node scripts/reset-fixture.js",
+    "transform": "now-sdk transform --from metadata",
+    "assert": "node scripts/assert-direct-mapping.js"
+  },
+  "devDependencies": {
+    "@servicenow/sdk": "4.7.1"
+  }
+}

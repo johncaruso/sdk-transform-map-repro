@@ -1,0 +1,6 @@
+{
+  "scope": "x_repro_transform",
+  "scopeId": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "name": "SDK Transform Map Repro",
+  "tsconfigPath": "./src/server/tsconfig.json"
+}
