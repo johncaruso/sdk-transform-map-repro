@@ -7,11 +7,11 @@ declare global {
                 explicit: {
                     bom_json: {
                         table: 'sys_module'
-                        id: '2ca0deefd24646888f5d83422b81e7df'
+                        id: '980a7bd288ce4c9e9c6997a119926431'
                     }
                     package_json: {
                         table: 'sys_module'
-                        id: '1fe3837b37554105b2dd59974544ba7c'
+                        id: '514244c2204e49af88e4e9c6cf0f50fd'
                     }
                 }
                 composite: [

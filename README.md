@@ -1,6 +1,6 @@
 # ServiceNow SDK Transform Map Direct Entry Repro
 
-This is a minimal local reproduction for a ServiceNow SDK transform bug in `@servicenow/sdk@4.7.1`.
+This is a minimal local reproduction for a ServiceNow SDK transform bug in `@servicenow/sdk` (reproduced on `4.7.1` through `4.10.0`).
 
 ## Summary
 
@@ -37,7 +37,7 @@ That changes runtime behavior from copying `source_field` to `target_field` into
 
 ## Environment Used
 
-- `@servicenow/sdk`: `4.7.1`
+- `@servicenow/sdk`: `4.10.0`
 - Node.js: `v24.14.0`
 - npm: `11.12.1`
 - OS: Linux WSL2
