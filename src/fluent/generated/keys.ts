@@ -5,13 +5,17 @@ declare global {
         namespace Internal {
             interface Keys extends KeysRegistry {
                 explicit: {
+                    '11111111111111111111111111111111': {
+                        table: 'sys_transform_map'
+                        id: '11111111111111111111111111111111'
+                    }
                     bom_json: {
                         table: 'sys_module'
-                        id: '980a7bd288ce4c9e9c6997a119926431'
+                        id: 'fee62bdffb5c4e7c9dc331adfbbfb789'
                     }
                     package_json: {
                         table: 'sys_module'
-                        id: '514244c2204e49af88e4e9c6cf0f50fd'
+                        id: '263c49bc085a4230b7699cc7a75d4a02'
                     }
                 }
                 composite: [

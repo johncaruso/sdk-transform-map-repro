@@ -14,7 +14,6 @@ ImportSet({
             sourceScript: `answer = (function transformEntry(source) {
     return ""; // platform placeholder; ignored when use_source_script=false
 })(source);`,
-            useSourceScript: true,
         },
         u_sdk_repro_scripted_target: {
             sourceField: '[Script]',

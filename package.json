@@ -5,9 +5,11 @@
   "scripts": {
     "pretransform": "node scripts/reset-fixture.js",
     "transform": "now-sdk transform --from metadata",
-    "assert": "node scripts/assert-direct-mapping.js"
+    "build": "now-sdk build",
+    "assert": "node scripts/assert-direct-mapping.js",
+    "verify": "npm run transform && npm run build && npm run assert"
   },
   "devDependencies": {
-    "@servicenow/sdk": "4.10.0"
+    "@servicenow/sdk": "4.14.0"
   }
 }
